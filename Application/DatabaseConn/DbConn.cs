@@ -15,6 +15,8 @@ public class DbConn
     public Form1()
     {
         InitializeComponent();
+        
+        //dette er en test
     }
 
     private void button1_Click(object sender, EventArgs e)
