@@ -6,12 +6,14 @@ public class TodoBasicDto
     public string OwnerName { get; }
     public string Title { get; }
     public bool IsCompleted { get;  }
+    public string Context { get; }
 
-    public TodoBasicDto(int id, string ownerName, string title, bool isCompleted)
+    public TodoBasicDto(int id, string ownerName, string title, bool isCompleted, string context)
     {
         Id = id;
         OwnerName = ownerName;
         Title = title;
         IsCompleted = isCompleted;
+        Context = context;
     }
 }
