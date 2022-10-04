@@ -30,6 +30,7 @@ public class UserLogic : IUserLogic
         
         return created;
     }
+    
 
     public Task<IEnumerable<User>> GetAsync(SearchUserParametersDto searchParameters)
     {

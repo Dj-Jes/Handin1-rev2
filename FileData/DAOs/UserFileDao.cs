@@ -38,6 +38,11 @@ public class UserFileDao : IUserDao
         return Task.FromResult(existing);
     }
 
+    public Task<User?> GetByMailAdressAsync(string mailAdress)
+    {
+        throw new NotImplementedException();
+    }
+
     public Task<IEnumerable<User>> GetAsync(SearchUserParametersDto searchParameters)
     {
         IEnumerable<User> users = context.Users.AsEnumerable();
