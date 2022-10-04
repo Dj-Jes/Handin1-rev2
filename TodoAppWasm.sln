@@ -8,7 +8,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileData", "FileData\FileData.csproj", "{C93645DE-82E7-438B-9E4C-77E13BCE0196}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{06E3F606-4566-4779-AC69-4AB7D5D90B51}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database_stabilDB", "Database_stabilDB\Database_stabilDB.csproj", "{06E3F606-4566-4779-AC69-4AB7D5D90B51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
