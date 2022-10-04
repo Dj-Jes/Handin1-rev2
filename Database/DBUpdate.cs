@@ -5,7 +5,7 @@ namespace Database;
 public class DBUpdate
 {
     // Obtain connection string information from the portal
-    //
+    //dose it work
     private static string Host = DBlogin.Host ;
     private static string User = DBlogin.User;
     private static string Password = DBlogin.Password;
