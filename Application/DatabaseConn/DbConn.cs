@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
+/*
 public class DbConn
 {
     public Form1()
@@ -30,3 +30,4 @@ public class DbConn
         cnn.Close();
     }
 }
+*/
