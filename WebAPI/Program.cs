@@ -37,3 +37,5 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+//Tilbage til normal uden blazor
