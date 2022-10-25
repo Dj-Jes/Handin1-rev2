@@ -7,7 +7,7 @@ public class TodoUpdateDto
     public string? Title { get; set; }
     public bool? IsCompleted { get; set; }
     
-    public string? Context { get; set; }
+    
 
     public TodoUpdateDto(int id)
     {

@@ -8,10 +8,10 @@ public class UserCreationDto
     public string PassWord { get; }
     
 
-    public UserCreationDto(string userName, int id, String mailAdress, String passWord )
+    public UserCreationDto(string userName, String mailAdress, String passWord )
     {
         UserName = userName;
-        Id = id;
+        
         MailAdress = mailAdress;
         PassWord = passWord;
 
