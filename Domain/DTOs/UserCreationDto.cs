@@ -11,7 +11,6 @@ public class UserCreationDto
     public UserCreationDto(string userName, String mailAdress, String passWord )
     {
         UserName = userName;
-        
         MailAdress = mailAdress;
         PassWord = passWord;
 

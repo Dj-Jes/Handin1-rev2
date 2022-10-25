@@ -6,8 +6,10 @@ public class TodoUpdateDto
     public int? OwnerId { get; set; }
     public string? Title { get; set; }
     public bool? IsCompleted { get; set; }
-    
-    
+
+    public string? Body { get; set; }
+
+
 
     public TodoUpdateDto(int id)
     {
