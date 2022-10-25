@@ -64,9 +64,10 @@ public class TodoLogic : ITodoLogic
         User userToUse = user ?? existing.Owner;
         string titleToUse = dto.Title ?? existing.Title;
         bool completedToUse = dto.IsCompleted ?? existing.IsCompleted;
+        string bodyToUse = dto.Body ?? existing.Body;
       
         
-        Todo updated = new (userToUse, titleToUse)
+        Todo updated = new (userToUse, titleToUse, bodyToUse)
         {
             IsCompleted = completedToUse,
             Id = existing.Id,
@@ -101,7 +102,7 @@ public class TodoLogic : ITodoLogic
             throw new Exception($"Todo with id {id} not found");
         }
 
-        return new TodoBasicDto(todo.Id, todo.Owner.UserName, todo.Title, todo.IsCompleted);
+        return new TodoBasicDto(todo.Id, todo.Owner.UserName, todo.Title, todo.IsCompleted, todo.Body);
     }
 
     private void ValidateTodo(Todo dto)
