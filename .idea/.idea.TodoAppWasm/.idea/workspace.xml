@@ -11,74 +11,7 @@
     <projectFile profileName="WebAPI">WebAPI/WebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="516c42f3-43ea-4316-83e5-bc26e0f3d2fd" name="Changes" comment="Roll back to 22-10-2022">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DnpAfl/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DnpAfl/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DnpAfl/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DnpAfl/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DnpAfl/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/App.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/Auth/CustomAuthProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/BlazorApp.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/Pages/BlockPageWithPolicy.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/Pages/Counter.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/Pages/FetchData.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/Pages/Index.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/Pages/Login.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/Pages/Login.razor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/Pages/LoginButtons.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/Pages/LoginButtons.razor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/Pages/MustBeLoggedInToView.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/Pages/PolicyExampleManual.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/Pages/PolicyExampleWithComponent.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/Pages/ShowCredentialsAuthState.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/Pages/ShowCredentialsContext.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/Services/Http/JwtAuthService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/Services/IAuthService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/Shared/MainLayout.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/Shared/MainLayout.razor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/Shared/NavMenu.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/Shared/NavMenu.razor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/Shared/SurveyPrompt.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/_Imports.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/wwwroot/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/wwwroot/css/bootstrap/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/wwwroot/css/bootstrap/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/wwwroot/css/open-iconic/FONT-LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/wwwroot/css/open-iconic/ICON-LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/wwwroot/css/open-iconic/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/wwwroot/css/open-iconic/font/fonts/open-iconic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/wwwroot/css/open-iconic/font/fonts/open-iconic.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/wwwroot/css/open-iconic/font/fonts/open-iconic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/wwwroot/css/open-iconic/font/fonts/open-iconic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/wwwroot/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/wwwroot/icon-192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/wwwroot/img/Login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/wwwroot/img/Logout.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/wwwroot/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorApp/wwwroot/sample-data/weather.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/Auth/AuthorizationPolicies.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/DTOs/UserLoginDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebAPI/Controllers/AuthController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebAPI/Controllers/TestController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebAPI/Services/AuthService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebAPI/Services/IAuthService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebAPI/WebApiTests.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TodoAppWasm/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TodoAppWasm/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TodoAppWasm/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TodoAppWasm/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TodoAppWasm/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Models/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoAppWasm.sln" beforeDir="false" afterPath="$PROJECT_DIR$/DnpAfl.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/WebAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/WebAPI.csproj" afterDir="false" />
-    </list>
+    <list default="true" id="516c42f3-43ea-4316-83e5-bc26e0f3d2fd" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -255,7 +188,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666699147109</updated>
       <workItem from="1666699158331" duration="3432000" />
-      <workItem from="1666865883729" duration="8665000" />
+      <workItem from="1666865883729" duration="8801000" />
     </task>
     <task id="LOCAL-00001" summary="med Blazor">
       <created>1666699572059</created>
@@ -299,7 +232,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667066318908</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Blazor Auth">
+      <created>1667075050344</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667075050344</updated>
+    </task>
+    <task id="LOCAL-00008" summary="XML no clue">
+      <created>1667075102411</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667075102411</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,6 +304,8 @@
     <MESSAGE value="eeee" />
     <MESSAGE value="Rolleback" />
     <MESSAGE value="Roll back to 22-10-2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="Roll back to 22-10-2022" />
+    <MESSAGE value="Blazor Auth" />
+    <MESSAGE value="XML no clue" />
+    <option name="LAST_COMMIT_MESSAGE" value="XML no clue" />
   </component>
 </project>
