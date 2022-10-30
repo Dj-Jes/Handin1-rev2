@@ -1,0 +1,29 @@
+Index: TodoAppWasm.sln
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\r\nMicrosoft Visual Studio Solution File, Format Version 12.00\r\nProject(\"{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}\") = \"Domain\", \"Domain\\Domain.csproj\", \"{A982E6A2-D11C-4554-8DF4-58BDCA620BAF}\"\r\nEndProject\r\nProject(\"{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}\") = \"WebAPI\", \"WebAPI\\WebAPI.csproj\", \"{979BF4CC-31F6-4071-B658-2DEED805F5B5}\"\r\nEndProject\r\nProject(\"{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}\") = \"Application\", \"Application\\Application.csproj\", \"{C6D51171-4743-4D3E-9E8F-44117E3AF6FF}\"\r\nEndProject\r\nProject(\"{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}\") = \"FileData\", \"FileData\\FileData.csproj\", \"{C93645DE-82E7-438B-9E4C-77E13BCE0196}\"\r\nEndProject\r\nProject(\"{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}\") = \"Database_stabilDB\", \"Database_stabilDB\\Database_stabilDB.csproj\", \"{06E3F606-4566-4779-AC69-4AB7D5D90B51}\"\r\nEndProject\r\nGlobal\r\n\tGlobalSection(SolutionConfigurationPlatforms) = preSolution\r\n\t\tDebug|Any CPU = Debug|Any CPU\r\n\t\tRelease|Any CPU = Release|Any CPU\r\n\tEndGlobalSection\r\n\tGlobalSection(ProjectConfigurationPlatforms) = postSolution\r\n\t\t{A982E6A2-D11C-4554-8DF4-58BDCA620BAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU\r\n\t\t{A982E6A2-D11C-4554-8DF4-58BDCA620BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU\r\n\t\t{A982E6A2-D11C-4554-8DF4-58BDCA620BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU\r\n\t\t{A982E6A2-D11C-4554-8DF4-58BDCA620BAF}.Release|Any CPU.Build.0 = Release|Any CPU\r\n\t\t{979BF4CC-31F6-4071-B658-2DEED805F5B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU\r\n\t\t{979BF4CC-31F6-4071-B658-2DEED805F5B5}.Debug|Any CPU.Build.0 = Debug|Any CPU\r\n\t\t{979BF4CC-31F6-4071-B658-2DEED805F5B5}.Release|Any CPU.ActiveCfg = Release|Any CPU\r\n\t\t{979BF4CC-31F6-4071-B658-2DEED805F5B5}.Release|Any CPU.Build.0 = Release|Any CPU\r\n\t\t{C6D51171-4743-4D3E-9E8F-44117E3AF6FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU\r\n\t\t{C6D51171-4743-4D3E-9E8F-44117E3AF6FF}.Debug|Any CPU.Build.0 = Debug|Any CPU\r\n\t\t{C6D51171-4743-4D3E-9E8F-44117E3AF6FF}.Release|Any CPU.ActiveCfg = Release|Any CPU\r\n\t\t{C6D51171-4743-4D3E-9E8F-44117E3AF6FF}.Release|Any CPU.Build.0 = Release|Any CPU\r\n\t\t{C93645DE-82E7-438B-9E4C-77E13BCE0196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU\r\n\t\t{C93645DE-82E7-438B-9E4C-77E13BCE0196}.Debug|Any CPU.Build.0 = Debug|Any CPU\r\n\t\t{C93645DE-82E7-438B-9E4C-77E13BCE0196}.Release|Any CPU.ActiveCfg = Release|Any CPU\r\n\t\t{C93645DE-82E7-438B-9E4C-77E13BCE0196}.Release|Any CPU.Build.0 = Release|Any CPU\r\n\t\t{06E3F606-4566-4779-AC69-4AB7D5D90B51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU\r\n\t\t{06E3F606-4566-4779-AC69-4AB7D5D90B51}.Debug|Any CPU.Build.0 = Debug|Any CPU\r\n\t\t{06E3F606-4566-4779-AC69-4AB7D5D90B51}.Release|Any CPU.ActiveCfg = Release|Any CPU\r\n\t\t{06E3F606-4566-4779-AC69-4AB7D5D90B51}.Release|Any CPU.Build.0 = Release|Any CPU\r\n\tEndGlobalSection\r\nEndGlobal\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TodoAppWasm.sln b/TodoAppWasm.sln
+--- a/TodoAppWasm.sln	(revision 90d5f53bfc3af7a248012221b8308144b0db4e4d)
++++ b/TodoAppWasm.sln	(date 1666702121224)
+@@ -10,6 +10,8 @@
+ EndProject
+ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database_stabilDB", "Database_stabilDB\Database_stabilDB.csproj", "{06E3F606-4566-4779-AC69-4AB7D5D90B51}"
+ EndProject
++Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp", "BlazorApp\BlazorApp.csproj", "{CF7BFF33-C2BB-4AFF-A1F6-5EAC0FC4A0A5}"
++EndProject
+ Global
+ 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+ 		Debug|Any CPU = Debug|Any CPU
+@@ -36,5 +38,9 @@
+ 		{06E3F606-4566-4779-AC69-4AB7D5D90B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+ 		{06E3F606-4566-4779-AC69-4AB7D5D90B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+ 		{06E3F606-4566-4779-AC69-4AB7D5D90B51}.Release|Any CPU.Build.0 = Release|Any CPU
++		{CF7BFF33-C2BB-4AFF-A1F6-5EAC0FC4A0A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
++		{CF7BFF33-C2BB-4AFF-A1F6-5EAC0FC4A0A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
++		{CF7BFF33-C2BB-4AFF-A1F6-5EAC0FC4A0A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
++		{CF7BFF33-C2BB-4AFF-A1F6-5EAC0FC4A0A5}.Release|Any CPU.Build.0 = Release|Any CPU
+ 	EndGlobalSection
+ EndGlobal
